@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="collector" />
+        <module name="kafakdemo" />
+        <module name="medical" />
+        <module name="monitoringcolony" />
+        <module name="saprkstreaming" />
+        <module name="sparksql" />
+        <module name="sparksteamingkafkademo" />
+        <module name="sparkstreaming" />
+        <module name="sparktest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="medical2" target="1.5" />
+      <module name="sparksteamingkafka" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

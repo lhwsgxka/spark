@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+    <!--<task>
+        <name>helloworld</name>
+        <type>hdfs</type>
+        <period>2</period>
+        <class>HelloWorldTask</class>
+    </task>-->
+    <task>
+        <name>cpuload</name>
+        <type>hdfs</type>
+        <period>3</period>
+        <class>task.hdfs.CpuLoadTask</class>
+    </task>
+
+    <task>
+        <name>AvailableProcessors</name>
+        <type>hdfs</type>
+        <period>3</period>
+        <class>task.hdfs.AvailableProcessorsTask</class>
+    </task>
+</tasks>
